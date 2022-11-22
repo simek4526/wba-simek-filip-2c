@@ -8,13 +8,17 @@
     }
 
     header {
-        background-color: rgba(14, 4, 15, 0.5);
+        background-color: rgba(29, 10, 31, 0.5);
         margin-top: 0;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: space-around;
     }
-
+    header>div{
+        width: 33.3%;
+        display:flex;
+        justify-content: center;
+    }
     h1 {
         color: whitesmoke;
         font: menu;
@@ -39,18 +43,6 @@
         color: whitesmoke;
     }
 
-    #navbar1 {
-        margin-left: 20%;
-    }
-
-    #navbar2 {
-        margin: 2%;
-    }
-
-    #navbar3 {
-        margin-right: 29%;
-    }
-
     #main {
         display: flex;
         justify-content: center;
@@ -66,10 +58,15 @@
         box-shadow: 0px 0px 30px 5px rgb(255, 255, 255);
     }
 
+    #menutext {
+        display: flex;
+        gap: 10%;
+    }
+
     .lupa {
         width: auto;
         height: 10px;
-        overflow: auto;
+
     }
 
     .sspslogo {
@@ -85,11 +82,17 @@
     <title>Document</title>
 </head>
 <header>
-    <img src="./logo.png" alt="logo" class="sspslogo">
-    <h1 id="navbar1">Domů</h1>
-    <h1 id="navbar2">O nás</h1>
-    <h1 id="navbar3">Kontakty</h1>
-    <img src="./search.png" alt="logo" class="lupa">
+    <div>
+        <img src="./logo.png" alt="logo" class="sspslogo">
+    </div>
+    <div id="menutext">
+        <h1>Domů</h1>
+        <h1 id="navbar2">O nás</h1>
+        <h1>Kontakty</h1>
+    </div>
+    <div>
+        <img src="./search.png" alt="logo" class="lupa">
+    </div>
 </header>
 
 <body>
