@@ -14,26 +14,21 @@
         align-items: center;
         justify-content: space-around;
     }
-    header>div{
+
+    header>div {
         width: 33.3%;
-        display:flex;
+        display: flex;
         justify-content: center;
     }
-    h1 {
-        color: whitesmoke;
-        font: menu;
-        font-size: 15px;
-        white-space: nowrap;
-    }
 
-    h2 {
+    h1 {
         font: menu;
         font-size: 20px;
         font-weight: bold;
         margin-left: 3%;
     }
 
-    h3 {
+    .maintext {
         font: menu;
         font-size: 12px;
         margin: 3%;
@@ -63,6 +58,13 @@
         gap: 7%;
     }
 
+    .topbuttons {
+        color: whitesmoke;
+        font: menu;
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
     .lupa {
         width: auto;
         height: 10px;
@@ -86,9 +88,9 @@
         <img src="./logo.png" alt="logo" class="sspslogo">
     </div>
     <div id="menutext">
-        <h1>Domů</h1>
-        <h1 id="navbar2">O nás</h1>
-        <h1>Kontakty</h1>
+        <p class="topbuttons">Domů</p>
+        <p class="topbuttons">O nás</p>
+        <p class="topbuttons">Kontakty</p>
     </div>
     <div>
         <img src="./search.png" alt="logo" class="lupa">
@@ -98,12 +100,13 @@
 <body>
     <div id="main">
         <div id="text">
-            <h2>Lorem ipsum</h2>
-            <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc tincidunt ante vitae massa. Etiam sapien
+            <h1>Lorem ipsum</h1>
+            <p class="maintext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc tincidunt ante vitae
+                massa. Etiam sapien
                 elit, consequat eget, tristique non, venenatis quis, ante. Donec iaculis gravida nulla. Nam libero
                 tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat
                 facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nunc tincidunt ante vitae massa.
-                Nulla pulvinar eleifend sem. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis.</h3>
+                Nulla pulvinar eleifend sem. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis.</p>
         </div>
     </div>
 </body>
