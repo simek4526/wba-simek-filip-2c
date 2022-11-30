@@ -63,8 +63,12 @@ header>div{
   
 }
 .img-placeholder{
+  height: 100%;
+  width: 100%;
   position: absolute;
-  background-color: #752400;  
+  background-color: #752400;
+  top: -10px;
+  left: -10px;
 }
 
 
