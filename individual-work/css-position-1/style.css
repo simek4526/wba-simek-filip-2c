@@ -54,6 +54,7 @@ header>div{
 .hero-img{
   width: 50%;
   position: relative;
+  z-index: 1;
 }
 
 .hero-text{
@@ -63,12 +64,13 @@ header>div{
   
 }
 .img-placeholder{
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 90%;
   position: absolute;
   background-color: #752400;
-  top: -10px;
-  left: -10px;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
 }
 
 
