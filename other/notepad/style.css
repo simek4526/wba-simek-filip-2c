@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+
+header{
+    margin: 0;
+    height: 10%;
+    background-color: black;
+}
+
+.main{
+    margin: 0;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.left_top{
+    background-color: lightgreen;
+}
+
+.left_bot{
+    background-color: lightblue;
+}
+
+.right_top{
+    background-color: rgb(229, 95, 95);
+}
+
+.right_bot{
+    background-color: rgb(255, 255, 170);
+}

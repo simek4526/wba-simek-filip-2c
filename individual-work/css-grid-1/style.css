@@ -13,6 +13,9 @@ body{
 
 .grid-item{
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid1 .grid-item:nth-child(1){
