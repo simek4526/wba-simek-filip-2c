@@ -1,0 +1,85 @@
+header {
+    background-color: #CBC1B1;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+header > div {
+    width: 50%;
+    display: flex;
+}
+
+header :first-child {
+    margin-left: 10%;
+}
+
+header :last-child{
+    margin-right: 10%;
+}
+
+header div > div {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 1.2rem;
+}
+
+header div > div:nth-child(1){
+    width: 25%;
+    background-color: #7C7474;
+    opacity: 70%;
+} 
+header div > div:nth-child(2){
+    width: 50%;
+    opacity: 70%;
+} 
+
+header div > div:nth-child(3){
+    width: 25%;
+    opacity: 70%;
+} 
+
+header div > div:hover{
+    background-color: #7C7474;
+    cursor: pointer;
+}
+
+body {
+         margin: 0;
+         height: 100vh;
+     }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #CBC1B1;
+    display: flex;
+    flex-direction: column;
+}
+
+footer :first-child {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+footer :last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem;
+}
