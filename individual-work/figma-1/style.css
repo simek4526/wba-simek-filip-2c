@@ -58,7 +58,7 @@ body {
 
 body > div:first-of-type{
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background: url(./hero\ image.png);
     background-size: cover;
     background-position: center;
@@ -132,7 +132,7 @@ footer :last-child {
     height: 371px;
     position: relative;
     left: 65%;
-    top: 60%;
+    top: 53%;
     display: flex;
     flex-direction: column;
 }
