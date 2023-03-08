@@ -51,9 +51,90 @@ header div > div:hover{
 }
 
 body {
-         margin: 0;
-         height: 100vh;
-     }
+    margin: 0;
+    height: 100vh;
+}
+
+.body {
+    width: 100%;
+    height: 75vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body > :nth-child(1){
+    height: 20%;
+    height: 20%;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body > :nth-child(2){
+    height: 60%;
+}
+
+.body  > :nth-child(3){
+    align-items:start;
+    height: 20%;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#7C7474;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 4px 4px 5px rgba(58, 58, 58, 0.6);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(6, 60px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+}
+
+.grid div{
+    background-color: rgba(124,116,116, 0.5  );
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+}
+
+.item2 {
+    display: flex;
+    align-items: center;
+}
+
+.item3 {
+    display: flex;
+    align-items: center;
+}
+
+.item4 {
+    display: flex;
+    align-items: center;
+}
+
+.item5 {
+    grid-column: 1/span 2;
+    grid-row: 3/span 4;
+}
 
 
 footer {
