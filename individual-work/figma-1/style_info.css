@@ -129,3 +129,90 @@ footer :last-child {
     height: 100%;
     font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .body div {
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(6, 100px);
+        grid-column-gap: 10px;
+        grid-row-gap: 15px; 
+    }
+
+    body div div {
+        font-size: .9rem;
+    }
+
+    .body div img{
+        height: 70px;
+    }
+
+    .text1{
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+    
+    .text2{
+        grid-column: 2/4;
+    }
+    
+    .text3{
+        grid-column: 2/4;
+    }
+    
+    .text4{
+        grid-column: 2/4;
+    }
+    
+    .text5{
+        grid-column: 2/4;
+    }
+    
+    .text6{
+        grid-column: 2/4;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+
+    header :nth-child(3){
+        display: none;        
+    }
+    header{
+        height: 8%;
+    }
+
+    header > div:first-child{
+        margin-left: 3%;
+
+    }
+
+    header > div:nth-child(2){
+        justify-content: end;
+    }
+
+    header div > div:nth-child(1){
+        display: none;
+    }
+    
+    header div > div:nth-child(2){
+        display: none;
+    }
+    header div > div:nth-child(3){
+        display: none;
+    }
+
+    header div > div:nth-child(4){
+        display: flex !important;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0px;
+    }
+}

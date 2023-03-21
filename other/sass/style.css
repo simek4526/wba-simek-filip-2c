@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 234px);
+  grid-template-rows: repeat(3, 234px);
+}
+
+div[class^=item] {
+  background-size: contain !important;
+  opacity: 0.5;
+  transition: transform 0.4s ease-out;
+}
+div[class^=item]:hover {
+  opacity: 1;
+  z-index: 2;
+  transform: scale(1.1);
+}
+
+.item1 {
+  background: url("./1.png");
+}
+
+.item2 {
+  background: url("./2.png");
+}
+
+.item3 {
+  background: url("./3.png");
+}
+
+.item4 {
+  background: url("./4.png");
+}
+
+.item5 {
+  background: url("./5.png");
+}
+
+.item6 {
+  background: url("./6.png");
+}
+
+.item7 {
+  background: url("./7.png");
+}
+
+.item8 {
+  background: url("./8.png");
+}
+
+.item9 {
+  background: url("./9.png");
+}/*# sourceMappingURL=style.css.map */
