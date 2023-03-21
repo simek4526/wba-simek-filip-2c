@@ -6,16 +6,17 @@ body
 
 .grid
     display: grid
-    grid-template-columns: repeat(3, 234px)
-    grid-template-rows: repeat(3, 234px)
+    grid-template-columns: repeat(3, 250px)
+    grid-template-rows: repeat(3, 250px)
 
 div[class^="item"]
     background-size: contain !important
-    opacity: .5
-    transition: transform  .4s ease-out
+    filter: brightness(.8) //opacity(.5)
+    z-index: 0
+    transition: all .3s
     &:hover
-        opacity: 1
-        z-index: 2
+        filter: brightness(1) //opacity(1)
+        z-index: 100
         transform: scale(1.1)
 
 @for $i from 1 through 9
